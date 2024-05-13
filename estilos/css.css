@@ -1,0 +1,128 @@
+body{
+	font-family: 'Dosis', sans-serif;
+	padding: 0rem 12rem;
+	margin: 0px;
+	background-color: #ECF1EB;
+}
+
+
+.menu{
+	display: flex;
+	justify-content: space-between;
+	height: 60px;
+}
+
+.menu .logo{
+	margin: 10px;
+}
+
+.menu .logo img{
+	width: 100px;
+}
+
+.menu ul{
+	display: flex;
+}
+
+.menu ul li{
+	list-style: none;
+	padding: 10px;
+	color: #2f353d;
+}
+
+.menu ul li a{
+	color: #2f353d;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.menu ul li a:hover{
+	color: #30AD1A;
+}
+
+.home{
+	margin: 120px 0;
+	display: flex;
+}
+
+.home h1{
+	font-weight: 520;
+	color: #374E89;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+.home h2{
+	font-weight: 100;
+	color: #374E89;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.home h2 span{
+	color: #30AD1A;
+	font-weight: 500;
+}
+
+.botao{
+	color: #fff;
+	text-decoration: none;
+	background-color: #30AD1A;
+	font-size: 20px;
+	padding: 5px 15px;
+	border-radius: 50px;
+}
+
+.botao:hover{
+	background-color: #80cf74;
+	transition: all .4s;
+}
+
+.img_home{
+	width: 55%;
+	display: flex;
+	justify-content: flex-end;
+}
+.descricao_home{
+	width: 45%;
+	margin-top: 10px;
+}
+
+.img_home img{
+	width: 380px;
+	height: 480px;
+	margin-top: -80px;
+}
+
+.info{
+	width: 100%;
+	margin-top: -80px;
+}
+
+.info ul{
+	display: flex;
+	margin-left: -40px;
+}
+
+.info ul li{
+	list-style: none;
+	display: flex;
+}
+
+ion-icon {
+  font-size: 40px;
+  color: #374E89;
+}
+
+.info p{
+	width: 220px;
+	color: #374E89;
+	font-weight: 500;
+	margin: 0px 12px;
+	flex-wrap: wrap;
+}
+
+.cardapio{
+	background-color: #F5F5F5;
+}
